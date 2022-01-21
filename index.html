@@ -177,28 +177,24 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
-                <form action="https://getform.io/f/9da5221e-5f31-43de-8fdb-d1f228b40b15" class="contact__form">
-                     <input type="text" placeholder="Name" class="contact__input">
-                   <!-- <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="button" value="Send" class="contact__button button"> -->
-                    <input type="text" placeholder="Email" class="contact__input">
-                    <input type="email" placeholder="Text" class="contact__input">
-                    <!-- <input type="textarea" cols="0" rows="10" name="message"> -->
-    <!-- checkbox handle 
-    <input type="checkbox" name="subscribe" value="yes" checked>
-    <input type="hidden" name="subscribe" value="no">
-    <!-- radio button handle --> 
-    <!-- <input type="radio" name="gender" value="male" checked>
-    <input type="radio" name="gender" value="female">
-    <input type="radio" name="gender" value="other"> -->
-    <!-- select field handle --> 
-    <!-- <select name="work-experience">
-        <option value="one-year">0-1 years</option>
-        <option value="one-five-years">1-5 years</option>
-        <option value="five-plus-years">5+ years</option>
-    </select> --> 
-    <button type="submit" class="contact_button button">Send</button>
+                <form action="https://getform.io/f/9da5221e-5f31-43de-8fdb-d1f228b40b15" method="POST">
+                    <input type="text"  placeholder="Name" name="name">
+                    <input type="email" placeholder="Email"  name="email">
+                    <input type="text" placeholder="Text"  name="message">
+                    <!-- checkbox handle --> 
+                    <!-- <input type="checkbox" name="subscribe" value="yes" checked>
+                    <input type="hidden" name="subscribe" value="no"> -->
+                    <!-- radio button handle --> 
+                    <!-- <input type="radio" name="gender" value="male" checked>
+                    <input type="radio" name="gender" value="female">
+                    <input type="radio" name="gender" value="other">
+                    select field handle 
+                    <select name="work-experience">
+                        <option value="one-year">0-1 years</option>
+                        <option value="one-five-years">1-5 years</option>
+                        <option value="five-plus-years">5+ years</option>
+                    </select> -->
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </section>
